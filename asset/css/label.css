@@ -1,0 +1,24 @@
+.label{
+    display: inline-block;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    font-size: 75%;
+}
+.bg-green{
+    background-color: #00875a;
+    bottom: 5%;
+    left: 10%;
+}
+.bg-red{
+    background-color: #eb0037;
+    bottom: 5%;
+    left: 0%;
+}
+/* .heart{
+    border: 1px solid red;
+    padding: 1%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+} */

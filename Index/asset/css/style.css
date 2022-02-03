@@ -43,6 +43,9 @@
 .img6{
     background-image: url("../image/6b.webp");
 }
-.img-size:hover{
+/* .img-size:hover{
     display: none;
+} */
+.container:hover .img-size{
+    visibility: hidden;
 }

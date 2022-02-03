@@ -14,13 +14,11 @@
     padding: 10px 10px;
 }
 .container{
-    display: inline-block;
     width: 300px;
     height: 400px;
     position: relative;
 }
 .container-img{
-    display: inline-block;
     width: 300px;
     height: 400px;
 }
@@ -48,46 +46,38 @@
 .img6b{
     background-image: url("../image/6b.webp");
 }
+
 .img1{
     background-image: url("../image/1.webp");
-    z-index: 1;
 }
 .img2{
     background-image: url("../image/2.webp");
-    z-index: 1;
 }
 .img3{
     background-image: url("../image/3.webp");
-    z-index: 1;
 }
 .img4{
     background-image: url("../image/4.webp");
-    z-index: 1;
 }
 .img5{
     background-image: url("../image/5.webp");
-    z-index: 1;
 }
 .img6{
     background-image: url("../image/6.webp");
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6{
     z-index: 1;
 }
-
-.container:hover .img1b{
-    z-index: 2;
-}
-.container:hover .img2b{
-    z-index: 2;
-}
-.container:hover .img3b{
-    z-index: 2;
-}
-.container:hover .img4b{
-    z-index: 2;
-}
-.container:hover .img5b{
-    z-index: 2;
-}
+.container:hover .img1b,
+.container:hover .img2b,
+.container:hover .img3b,
+.container:hover .img4b,
+.container:hover .img5b,
 .container:hover .img6b{
     z-index: 2;
 }

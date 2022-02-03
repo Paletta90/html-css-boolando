@@ -7,12 +7,15 @@
     width: 300px;
     height: 400px;
 }
+.container-body{
+    width: 80%;
+    margin: 0 auto;
+}
 .container{
     display: inline-block;
+    padding: 10px 10px;
 }
 .container-img{
-    border: 1px solid red;
-    /* display: inline-block; */
     width: 300px;
     height: 400px;
     position: relative;
@@ -27,6 +30,18 @@
 }
 .img2{
     background-image: url("../image/2b.webp");
+}
+.img3{
+    background-image: url("../image/3b.webp");
+}
+.img4{
+    background-image: url("../image/4b.webp");
+}
+.img5{
+    background-image: url("../image/5b.webp");
+}
+.img6{
+    background-image: url("../image/6b.webp");
 }
 .img-size:hover{
     display: none;

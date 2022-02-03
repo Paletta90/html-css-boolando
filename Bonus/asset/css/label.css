@@ -1,4 +1,4 @@
-.label-red{
+/* .label-red{
     display: inline-block;
     position: absolute;
     background-color: #eb0037;
@@ -8,8 +8,8 @@
     left: 0;
     bottom: 5%;  
     z-index: 3;
-}
-.label-green{
+} */
+/* .label-green{
     display: inline-block;
     position: absolute;
     background-color: #00875a;
@@ -19,6 +19,27 @@
     left: 15%;
     bottom: 5%; 
     z-index: 3;
+} */
+.label{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+    bottom: 5%; 
+    z-index: 3;
+}
+.left-0{
+    left: 0;
+}
+.left-15{
+    left: 13%;
+}
+.bg-red{
+    background-color:#eb0037 ;
+}
+.bg-green{
+    background-color: #00875a;
 }
 .heart{
     background-color: white;
